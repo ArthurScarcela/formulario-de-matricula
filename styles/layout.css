@@ -1,4 +1,4 @@
-#app{
+#app {
   display: grid;
   grid-template-columns: 51.25% 48.75%;
 
@@ -6,11 +6,12 @@
   overflow: hidden;
 }
 
-main{
+main {
   overflow: auto;
   padding: 4rem;
+  margin-inline: auto;
 
-  & .main-container{
+  & .main-container {
     max-width: 33rem;
     margin-left: auto;
   }
@@ -32,10 +33,10 @@ aside {
   background-color: var(--surface-secondary);
   padding: 4rem;
 
-  & .aside-container{
+  & .aside-container {
     max-width: 31rem;
 
-    & > img {
+    &>img {
       margin-top: 2rem;
     }
   }
